@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Crear/Editar Usuario</title>
+</head>
+<body>
+	<form action="#"
+		th:action="@{/user/save}"
+		method="post"
+		th:object="${user}">
+
+		<input th:field="*{id}" hidden="true">
+		<input type="text" placeholder="Nombre:" th:field="*{name}">
+		<input type="text" placeholder="Apellido Paterno:" th:field="*{lastname}">
+		<input type="text" placeholder="Apellido Materno:" th:field="*{givenName}">
+		<input type="text" placeholder="RFC:" th:field="*{clientId}">
+		<input type="text" placeholder="Dirección:" th:field="*{address}">
+		<button type="submit">Guardar!</button>
+	</form>
+</body>
+</html>

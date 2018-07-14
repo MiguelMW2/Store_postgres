@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: store_postgres
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Aula E2
+Implementation-Vendor-Id: mx.ipn.cic
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/store_postgres
+Created-By: Maven Integration for Eclipse
+

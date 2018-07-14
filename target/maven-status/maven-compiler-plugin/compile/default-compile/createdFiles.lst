@@ -1,0 +1,9 @@
+mx\ipn\cic\store\controllers\UserController.class
+mx\ipn\cic\store\StoreApplication.class
+mx\ipn\cic\store\controllers\UserRESTController.class
+mx\ipn\cic\store\services\UserService.class
+mx\ipn\cic\store\repositories\IUserRepository.class
+mx\ipn\cic\store\entities\UserEntity.class
+mx\ipn\cic\store\entities\ProductEntity.class
+mx\ipn\cic\store\entities\SellDetailEntity.class
+mx\ipn\cic\store\entities\SellEntity.class
